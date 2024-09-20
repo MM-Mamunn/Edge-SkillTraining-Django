@@ -105,10 +105,50 @@
 #     return tup
 
 # # taking a tuple 
-# tup = {2, 3, 4, 5, 6}
+# tup = (2, 3, 4, 5, 6)
 
 # print(sum_of_tuples(tup))
 
 # # change the first element of the tuple via 100
 # tup = change_first_element(tup,100)
 # print(tup)
+
+# # Task 5
+# # Declare two set
+# set1 = {"Mamun","Seyam","Rayhan"}
+# set2 = {"Rayhan","Rafi","Nahian"}
+
+# union_set = set1 | set2
+# intersection = set1 & set2
+# diff = (set1 - set2) | (set2 - set1)
+# print(f"The students in both sets are {intersection}")
+# print(f"The students in one sets are {diff}")
+
+
+# task 6
+def operations_on_dict(dict):
+    best = -100
+    worst = 102
+    loser = ""
+    topper = ""
+    Totall_score = 0
+    for key, value in dict.items():
+        Totall_score += value
+        if( best < value):
+            topper = key
+            best = value
+        if( worst > value):
+            worst = value
+            loser = key
+    print(f"Average score {Totall_score/len(dict)}")
+    print(f"Highest {topper}")
+    print(f"Lowest {loser}")
+
+score = {}
+score = dict()
+score["Mamun"] = 40
+score["Rayhan"] = 92
+score["Rafi"] = 95
+operations_on_dict(score)
+
+
