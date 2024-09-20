@@ -1,7 +1,3 @@
-#All task Questions are in slide
-
-
-
 # # Task1 : define a recursive funtion to calculate factorial
 # # A recursive function must have a base case and the recursive call must have to shrink towards the base case
 
@@ -130,29 +126,36 @@
 
 
 # task 6
-def operations_on_dict(dict):
-    best = -100
-    worst = 102
-    loser = ""
-    topper = ""
-    Totall_score = 0
-    for key, value in dict.items():
-        Totall_score += value
-        if( best < value):
-            topper = key
-            best = value
-        if( worst > value):
-            worst = value
-            loser = key
-    print(f"Average score {Totall_score/len(dict)}")
-    print(f"Highest {topper}")
-    print(f"Lowest {loser}")
+# def operations_on_dict(dict):
+#     best = -100
+#     worst = 102
+#     loser = ""
+#     topper = ""
+#     Totall_score = 0
+#     for key, value in dict.items():
+#         Totall_score += value
+#         if( best < value):
+#             topper = key
+#             best = value
+#         if( worst > value):
+#             worst = value
+#             loser = key
+#     print(f"Average score {Totall_score/len(dict)}")
+#     print(f"Highest {topper}")
+#     print(f"Lowest {loser}")
 
-score = {}
-score = dict()
-score["Mamun"] = 40
-score["Rayhan"] = 92
-score["Rafi"] = 95
-operations_on_dict(score)
+# score = {}
+# score = dict()
+# score["Mamun"] = 40
+# score["Rayhan"] = 92
+# score["Rafi"] = 95
+# operations_on_dict(score)
 
 
+
+# Task 7
+# List by comprehensive funtions
+# list = [ x  for x in  range(1,51) if x % 2 == 0]
+# # multiply via lambda functions
+# multiply = lambda lists : [ i * 3 for i in lists]
+# print(multiply(list))
