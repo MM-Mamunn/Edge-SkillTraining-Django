@@ -6,3 +6,5 @@
 
 ### ***Class 2*** : [Conditional Operators](https://github.com/MM-Mamunn/Edge-SkillTraining-Django/blob/main/C2_ConditionalOperator.py)
 #### ***Home Work 2*** : [Guessing a number](https://github.com/MM-Mamunn/Edge-SkillTraining-Django/blob/main/HomeWork2.py)
+
+### ***Class 3*** : [Funtions and DS](https://github.com/MM-Mamunn/Edge-SkillTraining-Django/tree/main/C3_Functions)
