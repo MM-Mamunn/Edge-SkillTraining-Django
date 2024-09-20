@@ -1,3 +1,7 @@
+#All task Questions are in slide
+
+
+
 # # Task1 : define a recursive funtion to calculate factorial
 # # A recursive function must have a base case and the recursive call must have to shrink towards the base case
 
