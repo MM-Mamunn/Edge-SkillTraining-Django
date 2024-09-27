@@ -1,4 +1,4 @@
-# open close principle - open to extend , close for modification
+# open close principle - open to extend , close for modification  ( SOLID -> O)
 # raise defines that each child of parent (Shape) must have the "area" method define,otherwise will show an error
 
 class Shape:
