@@ -10,3 +10,5 @@
 ### ***Class 3*** : [Funtions and DS](https://github.com/MM-Mamunn/Edge-SkillTraining-Django/tree/main/C3_Functions)
 
 ### ***Class 4*** : [OOP Basics](https://github.com/MM-Mamunn/Edge-SkillTraining-Django/tree/main/C4_OOP)
+
+### ***Class 5*** : [Inheritance_Polymorphism_Encapsulation_ABstraction_SOLID](https://github.com/MM-Mamunn/Edge-SkillTraining-Django/tree/main/C5_inheritance)
