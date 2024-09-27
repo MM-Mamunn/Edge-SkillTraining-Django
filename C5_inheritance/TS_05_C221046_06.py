@@ -1,6 +1,8 @@
 #Liskov substitution method ( SOLID -->L )
-# The parent Bird contains method named "fly", but the penguin type bird has an exception that it can't fly
-# So penguins must not execute the "fly" method. 
+#It defines that the child class supports all method of the parent class
+
+#But below, The parent Bird contains method named "fly", but the penguin type bird has an exception that it can't fly
+# So penguins must not execute the "fly" method, It violates the Liskov substitution method.
 
 # class Bird:
 #     def fly(self):
