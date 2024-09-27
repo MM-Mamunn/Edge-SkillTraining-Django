@@ -1,7 +1,7 @@
-# Interface segregations (ISP) ( SOLID -> I)
+# Interface Segregation (ISP) (SOLID -> I)
 
-# in vehicle some are drivable and some are flyable, there is note that is both.
-# So it is not logical that drive and fly contains in the same parent class like the following code 
+# In vehicles, some are drivable and some are flyable, with a note that some are both.
+# It is not logical for drive and fly to be contained in the same parent class, as shown in the following code.
 
 # Not recommended
 class Vehicle:
@@ -25,9 +25,9 @@ class Airplane(Vehicle):
     def drive(self):
         raise NotImplementedError("Airplanes can't drive.")
     
-# So it is logical to build spearate parent class
-# Some vehicle are driveable and some are flyable
-#  This is interface segregations (ISP)
+# Therefore, it is logical to build separate parent classes.
+# Some vehicles are drivable and some are flyable.
+# This demonstrates the Interface Segregation Principle (ISP).
 class Drivable:
     def drive(self):
         pass
