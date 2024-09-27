@@ -1,3 +1,4 @@
+#Liskov substitution method ( SOLID -->L )
 # The parent Bird contains method named "fly", but the penguin type bird has an exception that it can't fly
 # So penguins must not execute the "fly" method. 
 
@@ -20,7 +21,7 @@
 class Bird:
     pass
 
-# this FlyingBird class extends the capability of fly method,now this class can be inherited to the child bird class that can fly
+# this FlyingBird class extends the capability of parent "Bird" by adding "fly" method,now this class can be inherited to the child bird class that can fly
 class FlyingBird(Bird):
     def fly(self):
         print("Flying...")
