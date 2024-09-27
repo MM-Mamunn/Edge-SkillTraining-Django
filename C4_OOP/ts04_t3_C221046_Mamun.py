@@ -1,4 +1,4 @@
-# Task 3 - S of SOLID (of OOP)
+# Task 3 - (SOLID --> S)
 
 # Create classes with single resposibility
 class Fuel_Efficiency_Calculation:
