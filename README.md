@@ -1,14 +1,20 @@
 # Edge Skill training Program
 ## Subject : [Django](https://www.djangoproject.com/)
 
-### ***Class 1*** : [Python basics](https://github.com/MM-Mamunn/Edge-SkillTraining-Django/blob/main/Python_basics.py)
-#### ***Home Work 1*** : [50 type conversation/string operation](https://github.com/MM-Mamunn/Edge-SkillTraining-Django/blob/main/HomeWork1.py)
+### Resources
+#### [**Course Plan**](https://github.com/MM-Mamunn/Edge-SkillTraining-Django/blob/main/Course%20plan.pdf)
 
-### ***Class 2*** : [Conditional Operators](https://github.com/MM-Mamunn/Edge-SkillTraining-Django/blob/main/C2_ConditionalOperator.py)
-#### ***Home Work 2*** : [Guessing a number](https://github.com/MM-Mamunn/Edge-SkillTraining-Django/blob/main/HomeWork2.py)
+#### [**Class Slides**](https://github.com/MM-Mamunn/Edge-SkillTraining-Django/tree/main/Class%20Slides)
+---
 
-### ***Class 3*** : [Funtions and DS](https://github.com/MM-Mamunn/Edge-SkillTraining-Django/tree/main/C3_Functions)
+#### ***Class 1*** : [Python basics](https://github.com/MM-Mamunn/Edge-SkillTraining-Django/tree/main/Class%20Task/C1_Pythone_Basics)
+#### ***Home Work 1*** : [50 type conversation/string operation](https://github.com/MM-Mamunn/Edge-SkillTraining-Django/blob/main/Home%20Task/HomeTask1.py)
 
-### ***Class 4*** : [OOP Basics](https://github.com/MM-Mamunn/Edge-SkillTraining-Django/tree/main/C4_OOP)
+#### ***Class 2*** : [Conditional Operators](https://github.com/MM-Mamunn/Edge-SkillTraining-Django/tree/main/Class%20Task/C2_ConditionalOperator)
+#### ***Home Work 2*** : [Guessing a number](https://github.com/MM-Mamunn/Edge-SkillTraining-Django/blob/main/Home%20Task/HomeTask2.py)
 
-### ***Class 5*** : [Inheritance_Polymorphism_Encapsulation_ABstraction_SOLID](https://github.com/MM-Mamunn/Edge-SkillTraining-Django/tree/main/C5_inheritance)
+#### ***Class 3*** : [Funtions and DS](https://github.com/MM-Mamunn/Edge-SkillTraining-Django/tree/main/Class%20Task/C3_Functions)
+
+#### ***Class 4*** : [OOP Basics](https://github.com/MM-Mamunn/Edge-SkillTraining-Django/tree/main/Class%20Task/C4_OOP)
+
+#### ***Class 5*** : [Inheritance_Polymorphism_Encapsulation_ABstraction_SOLID](https://github.com/MM-Mamunn/Edge-SkillTraining-Django/tree/main/Class%20Task/C5_OOP_Properties%26Principle)
