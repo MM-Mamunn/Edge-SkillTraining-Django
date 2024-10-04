@@ -18,3 +18,4 @@
 #### ***Class 4*** : [OOP Basics](https://github.com/MM-Mamunn/Edge-SkillTraining-Django/tree/main/Class%20Task/C4_OOP)
 
 #### ***Class 5*** : [Inheritance_Polymorphism_Encapsulation_ABstraction_SOLID](https://github.com/MM-Mamunn/Edge-SkillTraining-Django/tree/main/Class%20Task/C5_OOP_Properties%26Principle)
+#### ***Class 6*** : [Django Setup](https://github.com/MM-Mamunn/Edge-SkillTraining-Django/tree/main/Class%20Task/C6_Django_setup_Linux)
