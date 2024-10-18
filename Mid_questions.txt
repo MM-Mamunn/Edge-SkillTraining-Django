@@ -1,5 +1,9 @@
 generator ,
-trading,
+threading,
 sync, async,
 decorators,
-aggregate vs annonate
+aggregate vs annonate,
+multithreading,
+constructors,
+destructure,
+new function call,
