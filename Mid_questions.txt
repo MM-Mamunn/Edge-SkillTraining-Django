@@ -1,0 +1,5 @@
+generator ,
+trading,
+sync, async,
+decorators,
+aggregate vs annonate
