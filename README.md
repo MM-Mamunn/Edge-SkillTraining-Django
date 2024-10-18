@@ -19,3 +19,4 @@
 
 #### ***Class 5*** : [Inheritance_Polymorphism_Encapsulation_ABstraction_SOLID](https://github.com/MM-Mamunn/Edge-SkillTraining-Django/tree/main/Class%20Task/C5_OOP_Properties%26Principle)
 #### ***Class 6*** : [Django Setup](https://github.com/MM-Mamunn/Edge-SkillTraining-Django/tree/main/Class%20Task/C6_Django_setup_Linux)
+#### ***Class 7*** : [Models and ORM](https://github.com/MM-Mamunn/Edge-SkillTraining-Django/tree/main/Class%20Task/C7_Models%26ORM)
