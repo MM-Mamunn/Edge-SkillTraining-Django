@@ -1,4 +1,4 @@
-## Install SQLite
+## Install SQLite in Linux
 
 ```
 sudo apt install sqlitebrowser
