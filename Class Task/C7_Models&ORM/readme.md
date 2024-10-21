@@ -13,7 +13,6 @@ sqlitebrowser
 ```
 python3 manage.py shell
 ```
-
 <!-- class 7 -->
 
 # Model
@@ -21,9 +20,17 @@ python3 manage.py shell
 ```
 python3 manage.py makemigrations
 ```
+or
+```
+py manage.py makemigrations
+```
 ### Changes are ready to make impact on db. Now,
 ```
 python3 manage.py migrate
+```
+or
+```
+py manage.py migrate
 ```
 
 ### suppose you are adding a new field in an existing model
