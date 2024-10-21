@@ -39,10 +39,11 @@ py manage.py migrate
 
 ## If you are facing problem and want to migrate all newly
 ### ***Step 1:*** delte all ".py" file in migrations folder except the "__init__" file
-### ***Step 1:*** Drop the DB: locate the database file and run
+### ***Step 2:*** Drop the DB: locate the database file and run
 ```
 rm db.sqlite3
 ```
+### ***Step 3:***
 ### Now make necessary changes to your model then migrate the changes now,
 ```
 python3 manage.py makemigrations
