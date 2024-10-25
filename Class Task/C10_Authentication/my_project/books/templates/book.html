@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Form</title>
+    {% comment %}
+    <script src="https://cdn.tailwindcss.com"></script>
+    {% endcomment %}
+
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <body class="bg-gray-100 flex items-center justify-center min-h-screen">
+    <div
+      class="w-full max-w-lg bg-white rounded-lg shadow-md shadow-blue-800 p-8"
+    >
+      <h1 class="text-2xl font-semibold text-center mb-6">Contact Us</h1>
+
+      <form method="post" class="space-y-6">
+        {% csrf_token %}
+
+        <!-- Render the form fields -->
+        <div class="flex justify-between  align-center">
+          <div
+            class="border-2 rounded-2xl p-2 text-white bg-slate-600 m-1 font-bold inline-block"
+          >
+            {{ form.title.label_tag }}
+          </div>
+          <div
+            class="border-2 shadow-inner shadow-sm shadow-red-800 rounded-2xl p-2 bg-slate-50 inline-block"
+          >
+            {{ form.title }}
+          </div>
+          {% if form.title.errors %}
+          <p class="text-red-500 text-sm">{{ form.name.errors }}</p>
+          {% endif %}
+        </div>
+
+        <div class="flex justify-between  align-center">
+          <div
+            class="border-2 rounded-2xl p-2 text-white bg-slate-600 m-1 font-bold inline-block"
+          >
+            {{ form.publication_date.label_tag }}
+          </div>
+          <div
+            class="border-2 shadow-inner shadow-sm shadow-red-800 rounded-2xl p-2 bg-slate-50 inline-block"
+          >
+            {{ form.publication_date }}
+          </div>
+          {% if form.publication_date.errors %}
+          <p class="text-red-500 text-sm">{{ form.email.errors }}</p>
+          {% endif %}
+        </div>
+
+        <div class="flex justify-between  align-center">
+          <div
+            class="border-2 text-center h-[50px] rounded-2xl p-2 text-white bg-slate-600 m-1 font-bold inline-block"
+          >
+            {{ form.description.label_tag }}
+          </div>
+          <div
+            class="border-2 shadow-inner shadow-sm shadow-red-800 rounded-2xl p-2 bg-slate-50 inline-block"
+          >
+            {{ form.description}}
+          </div>
+          {% if form.description.errors %}
+          <p class="text-red-500 text-sm">{{ form.description.errors }}</p>
+          {% endif %}
+        </div>
+
+        <div class="flex  justify-between align-center">
+          <div
+            class="border-2 text-center h-[50px] rounded-2xl p-2 text-white bg-slate-600 m-1 font-bold inline-block"
+          >
+            {{ form.price.label_tag }}
+          </div>
+          <div
+            class="border-2 shadow-inner shadow-sm shadow-red-800 rounded-2xl p-2 bg-slate-50 inline-block"
+          >
+            {{ form.price}}
+          </div>
+          {% if form.price.errors %}
+          <p class="text-red-500 text-sm">{{ form.price.errors }}</p>
+          {% endif %}
+        </div>
+
+        <div class="flex  justify-between align-center">
+          <div
+            class="border-2 text-center h-[50px] rounded-2xl p-2 text-white bg-slate-600 m-1 font-bold inline-block"
+          >
+            {{ form.author.label_tag }}
+          </div>
+          <div
+            class="border-2 shadow-inner shadow-sm shadow-red-800 rounded-2xl p-2 bg-slate-50 inline-block"
+          >
+            {{ form.author}}
+          </div>
+          {% if form.author.errors %}
+          <p class="text-red-500 text-sm">{{ form.author.errors }}</p>
+          {% endif %}
+        </div>
+        <div class="flex   justify-between align-center">
+          <div
+            class="border-2 text-center h-[50px] rounded-2xl p-2 text-white bg-slate-600 m-1 font-bold inline-block"
+          >
+            {{ form.publisher.label_tag }}
+          </div>
+          <div
+            class="border-2 shadow-inner shadow-sm shadow-red-800 rounded-2xl p-2 bg-slate-50 inline-block"
+          >
+            {{ form.publisher}}
+          </div>
+          {% if form.publisher.errors %}
+          <p class="text-red-500 text-sm">{{ form.publisher.errors }}</p>
+          {% endif %}
+        </div>
+
+        <button
+          type="submit"
+          class="w-[150px] ml-[10vw] bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-700 transition-colors"
+        >
+          Submit
+        </button>
+      </form>
+
+      <!-- Error message -->
+      {% if form.errors %}
+      <p class="mt-4 text-center text-red-500">
+        Please correct the errors below.
+      </p>
+      {% endif %}
+    </div>
+  </body>
+</html>

@@ -1,0 +1,90 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Form</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen">
+    <div
+      class="w-full max-w-lg bg-white rounded-lg shadow-md shadow-slate-800 p-8"
+    >
+    <h1 class="text-2xl font-semibold text-center mb-6">Log in</h1>
+    
+    <form method="post"  class="space-y-6 text-center">
+        {% csrf_token %}
+        
+        {{form.as_p}}
+        <button
+        type="submit"
+        class="w-[150px]  bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-700 transition-colors"
+        >
+        Submit
+    </button>
+</form>
+</div>
+</body>
+</html>
+
+{% comment %} <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Form</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-100 flex items-center justify-center min-h-screen">
+    <div
+      class="w-full max-w-lg bg-white rounded-lg shadow-md shadow-blue-800 p-8"
+    >
+      <h1 class="text-2xl font-semibold text-center mb-6">Contact Us</h1>
+
+      <form method="post"  class="space-y-6">
+        {% csrf_token %}
+
+        <!-- Username Input -->
+        <div>
+          <label for="username" class="block text-sm font-medium text-gray-700"
+            >Username</label
+          >
+          <input
+            type="text"
+            id="username"
+            name="username"
+            class="mt-1 block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"
+            placeholder="Enter your username"
+            required
+          />
+        </div>
+
+        <!-- Password Input -->
+        <div>
+          <label for="password" class="block text-sm font-medium text-gray-700"
+            >Password</label
+          >
+          <input
+            type="password"
+            id="password"
+            name="password"
+            class="mt-1 block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"
+            placeholder="Enter your password"
+            required
+          />
+        </div>
+
+        <button
+          type="submit"
+          class="w-[150px] ml-[10vw] bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-700 transition-colors"
+        >
+          Submit
+        </button>
+      </form>
+    </div>
+  </body>
+</html> {% endcomment %}
