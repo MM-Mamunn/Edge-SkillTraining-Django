@@ -17,7 +17,10 @@ from rest_framework.views import APIView
 from books.serializers import BookSerializer
 
 def home(request):
-    return HttpResponse(f"Welcome to {request.user.username}")
+    if request.user.is_authenticated:
+        return HttpResponse(f"Welcome to {request.user.username}")
+    else:
+        return HttpResponse(f"You are not Logged in. Please Log in First")
 
 def test(request):
     return render(request,'test.html')
