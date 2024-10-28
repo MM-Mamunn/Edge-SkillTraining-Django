@@ -22,4 +22,4 @@
 #### ***Class 7*** : [Models and ORM](https://github.com/MM-Mamunn/Edge-SkillTraining-Django/tree/main/Class%20Task/C7_Models%26ORM)
 #### ***Class 8*** : [Views / Class views](https://github.com/MM-Mamunn/Edge-SkillTraining-Django/tree/main/Class%20Task/C8_FVBS_CVBS)
 #### ***Class 9*** : [Forms and Templates](https://github.com/MM-Mamunn/Edge-SkillTraining-Django/tree/main/Class%20Task/C9_Templates%26Forms)
-
+#### ***Class 10***: [Authentication](https://github.com/MM-Mamunn/Edge-SkillTraining-Django/tree/main/Class%20Task/C10_Authentication)
