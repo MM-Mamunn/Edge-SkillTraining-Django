@@ -24,3 +24,4 @@
 #### ***Class 9*** : [Forms and Templates](https://github.com/MM-Mamunn/Edge-SkillTraining-Django/tree/main/Class%20Task/C9_Templates%26Forms)
 #### ***Class 10***: [Authentication](https://github.com/MM-Mamunn/Edge-SkillTraining-Django/tree/main/Class%20Task/C10_Authentication)
 #### ***Class 11***: [Django Rest Framework](https://github.com/MM-Mamunn/Edge-SkillTraining-Django/tree/main/Class%20Task/C11_restFrameWork)
+#### ***Class 12***: [Serialization, Deserialization, Mixins & Decorators](https://github.com/MM-Mamunn/Edge-SkillTraining-Django/tree/main/Class%20Task/C12_Serialization_Deserialization_Mixins_Decorators)
