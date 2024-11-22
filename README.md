@@ -25,3 +25,4 @@
 #### ***Class 10***: [Authentication](https://github.com/MM-Mamunn/Edge-SkillTraining-Django/tree/main/Class%20Task/C10_Authentication)
 #### ***Class 11***: [Django Rest Framework](https://github.com/MM-Mamunn/Edge-SkillTraining-Django/tree/main/Class%20Task/C11_restFrameWork)
 #### ***Class 12***: [Serialization, Deserialization, Mixins & Decorators](https://github.com/MM-Mamunn/Edge-SkillTraining-Django/tree/main/Class%20Task/C12_Serialization_Deserialization_Mixins_Decorators)
+#### ***Class 15***: [Generator, Caching, Threading](https://github.com/MM-Mamunn/Edge-SkillTraining-Django/tree/main/Class%20Task/C15_Generator%2Ccaching%2Cthreading%20etc)
